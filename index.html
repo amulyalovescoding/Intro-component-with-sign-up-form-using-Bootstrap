@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- custom stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="m-2">
+
+  <main class="mx-lg-5 px-lg-5 py-1">
+    <section class="row mx-lg-5 px-lg-5 px-md-3 px-sm-3 justify-content-center">
+      <div class="column col-md-6 m-auto p-5 text-center">
+        <h1 class="text-lg-start"> Learn to code by watching others</h1>
+        <p class="text-lg-start">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.</p>
+      </div>
+      <div class="column col-md-6 p-5 m-auto">
+        <button type="button" class="btn btn-primary try-button p-3">Try it free 7 days then $20/mo. thereafter</button>
+        <form class="form-container" action="index.html" method="post">
+          <div class="">
+            <input type="text" class="form-control mb-3 p-3" id="fName" placeholder="first name" required>
+            <p class="error-text" id="error-text-fName"></p>
+          </div>
+
+          <div class="">
+            <input type="text" class="form-control mb-3 p-3" id="lName" placeholder="last name" required/>
+            <p class="error-text" id="error-text-lName"></p>
+          </div>
+
+          <div class="">
+            <input type="email" class="form-control mb-3 p-3" id="email" placeholder="name@example.com" required>
+            <p class="error-text" id="error-text-email"></p>
+          </div>
+
+          <div class="">
+            <input type="password" class="form-control mb-3 p-3" id="inputPassword2" placeholder="Password" required>
+            <p class="error-text" id="error-text-password"></p>
+          </div>
+
+          <button type="submit" class="btn btn-success trial-button mb-3 p-3">Claim your free trial</button>
+          <p class="term">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+        </form>
+      </div>
+    </section>
+
+
+
+  </main>
+
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/amulyalovescoding">Amulya Prakash</a>.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>

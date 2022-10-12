@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(../images/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+  background-color: hsl(0, 100%, 74%);
+}
+
+main {}
+
+h1 {
+  color: #fff;
+  font-weight: 700;
+}
+
+p {
+  color: #fff;
+}
+
+button {
+  width: 100%;
+}
+
+.column {
+  min-width: 480px;
+}
+
+.form-container {
+  box-shadow: 0.5px 5px 8px hsl(249, 10%, 26%);
+}
+
+.try-button {
+  background-color: hsl(248, 32%, 49%);
+  box-shadow: 0.5px 5px 8px hsl(249, 10%, 26%);
+}
+
+form {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+}
+
+.trial-button {
+  background-color: #38cc8c;
+  box-shadow: 0px 0.3em 0px 0px #2fb179;
+}
+
+.term {
+  color: hsl(246, 25%, 77%);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+p a {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.error-icon, .error-text {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.error-text {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.form-control.icon-active {
+  margin-bottom: -16px;
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
+  background-image: url(../images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.error-text.active, .form-control.active {
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
+}
+
+.error-text.active {
+  font-size: 0.7rem;
+  font-style: italic;
+  text-align: right;
+  color: hsl(0, 100%, 74%);
+  top: initial;
+  bottom: -8%;
+}
+
+.form-control.error {
+  margin-bottom: 1.8rem;
+  outline: hsl(0, 100%, 74%) solid;
+}
+
+.attribution {
+  color: #fff;
+  font-size: 0.6875rem;
+  padding: 2.5rem 0 2.5rem 0;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(248, 32%, 49%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(154, 59%, 51%);
+  background-color: #fff;
+}
